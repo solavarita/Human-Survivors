@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b66b0eaf77362ae4cb6ccbaa7af2814a
+guid: 1458784a4b21a0141a5c6583500ffff6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -45,10 +45,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 192
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,127 +97,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: All_0
+      name: bloody-orb_0
       rect:
         serializedVersion: 2
-        x: 576
-        y: 290
-        width: 48
-        height: 11
+        x: 33
+        y: 166
+        width: 88
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 4, z: 6, w: 4}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cecf1518ecbcca8418b9abc6f6c4beee
-      internalID: -2003050144
+      spriteID: 1a09ee39a190f944bb2c585241f43435
+      internalID: -2059747932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_1
+      name: bloody-orb_1
       rect:
         serializedVersion: 2
-        x: 627
-        y: 293
-        width: 42
-        height: 5
+        x: 194
+        y: 166
+        width: 88
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 3, y: 1, z: 3, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f742b20af3601741b0f305ad0823bbd
-      internalID: 1788374850
+      spriteID: 5b69b2256f6ed0d40ae67d0ae852dfe5
+      internalID: 1482085489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_2
+      name: bloody-orb_2
       rect:
         serializedVersion: 2
-        x: 579
-        y: 226
-        width: 42
-        height: 11
+        x: 357
+        y: 173
+        width: 88
+        height: 138
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 4, z: 6, w: 4}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29673bbd680afee4981b7c16ab00db1a
-      internalID: 1706500555
+      spriteID: ec47ec7229f089241a086d5c932200f5
+      internalID: -575706872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_3
+      name: bloody-orb_3
       rect:
         serializedVersion: 2
-        x: 631
-        y: 229
-        width: 34
-        height: 5
+        x: 519
+        y: 199
+        width: 88
+        height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 1, z: 2, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 398cedc2ec9d6e84983b76effc57cc85
-      internalID: 690069299
+      spriteID: 34e7f8d22b64ad14aa0036b19ad84d40
+      internalID: 1350771990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_4
+      name: bloody-orb_4
       rect:
         serializedVersion: 2
-        x: 633
-        y: 150
-        width: 32
-        height: 5
+        x: 681
+        y: 182
+        width: 88
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 1, z: 1, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a838ee2141e462e4eaafa15a444508fd
-      internalID: 1351263156
+      spriteID: 4a013f544d7bd4740a4d4f86215eabc3
+      internalID: 1206878642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: All_5
+      name: bloody-orb_9
       rect:
         serializedVersion: 2
-        x: 873
-        y: 150
-        width: 32
-        height: 5
+        x: 33
+        y: 12
+        width: 88
+        height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 1, y: 1, z: 1, w: 1}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ad8591cdea959949ba25059f1ac9488
-      internalID: -1879115292
+      spriteID: 90dec14a77ae94f45abae35e1ca14b98
+      internalID: 1091313010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody-orb_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 29
+        width: 88
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f807f794569b8c24c8b2375da6135df5
+      internalID: -2055494384
       vertices: []
       indices: 
       edges: []
@@ -233,12 +254,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      All_0: -2003050144
-      All_1: 1788374850
-      All_2: 1706500555
-      All_3: 690069299
-      All_4: 1351263156
-      All_5: -1879115292
+      bloody-orb_0: -2059747932
+      bloody-orb_1: 1482085489
+      bloody-orb_10: -2055494384
+      bloody-orb_11: 1209275559
+      bloody-orb_2: -575706872
+      bloody-orb_3: 1350771990
+      bloody-orb_4: 1206878642
+      bloody-orb_5: -1452885939
+      bloody-orb_6: -2075171636
+      bloody-orb_7: 1030105295
+      bloody-orb_8: 908072706
+      bloody-orb_9: 1091313010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

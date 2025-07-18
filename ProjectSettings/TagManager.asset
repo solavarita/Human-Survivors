@@ -48,6 +48,15 @@ TagManager:
   - name: Objects
     uniqueID: 812017203
     locked: 0
+  - name: Weapons
+    uniqueID: 2522859663
+    locked: 0
+  - name: Enemies
+    uniqueID: 3197647803
+    locked: 0
+  - name: Player
+    uniqueID: 1303329039
+    locked: 0
   - name: Foreground
     uniqueID: 3161788563
     locked: 0
