@@ -6,20 +6,16 @@ using static UnityEditor.Searcher.SearcherWindow.Alignment;
 public class PlayerMovement : MonoBehaviour
 {
     public static PlayerMovement Instance;
-
     [Header("Khai báo")]
     public Rigidbody2D playerRB;
     public Animator animator;
-    
-    [Header("Player")]
-    public float playerSpeed;
-    public float playerCurHealth;
-    public float playerMaxHealth;
 
     private float moveHor;
     private float moveVer;
     private Transform playerTransform;
     private Vector3 input;
+
+    [SerializeField] private PlayerStats playerStats;
 
     private void Awake()
     {
@@ -35,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        playerCurHealth = playerMaxHealth;
+
     }
 
     void Update()
@@ -55,16 +51,11 @@ public class PlayerMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        playerRB.velocity = new Vector2(input.x * playerSpeed, input.y * playerSpeed);
+        playerRB.velocity = new Vector2(input.x * playerStats.playerSpeed, input.y * playerStats.playerSpeed);
     }
 
     private bool MoveCheck()
     {
         return input != Vector3.zero;
-    }    
-
-    public void TakeDamage(float damage)
-    {
-        playerCurHealth -= damage;
     }    
 }

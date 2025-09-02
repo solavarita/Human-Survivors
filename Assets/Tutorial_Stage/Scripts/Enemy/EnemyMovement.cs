@@ -60,7 +60,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerMovement.Instance.TakeDamage(3);
+            Debug.Log("Đã nhận sát thương");
             Die();
         }
     }

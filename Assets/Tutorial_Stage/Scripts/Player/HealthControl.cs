@@ -12,6 +12,8 @@ public class HealthControl : MonoBehaviour
     [SerializeField] private Text healthText;
     [SerializeField] private Slider healthSlider;
 
+    [SerializeField] private PlayerStats playerStats;
+
     private void Update()
     {       
         HealthUpdate();        
@@ -20,8 +22,8 @@ public class HealthControl : MonoBehaviour
 
     private void HealthUpdate()
     {
-        maxHealth = PlayerMovement.Instance.playerMaxHealth;
-        currentHealth = PlayerMovement.Instance.playerCurHealth;
+        maxHealth = playerStats.playerMaxHealth;
+        currentHealth = playerStats.playerCurHealth;
 
         healthSlider.maxValue = maxHealth;
         healthSlider.value = currentHealth;
@@ -29,9 +31,9 @@ public class HealthControl : MonoBehaviour
 
     private void PercentHealthUpdate()
     {
-        float totalHealth = PlayerMovement.Instance.playerMaxHealth;
-        float leftHealth = PlayerMovement.Instance.playerCurHealth;
-        float percent = (leftHealth / maxHealth) * 100  ;        
+        float totalHealth = playerStats.playerMaxHealth;
+        float leftHealth = playerStats.playerCurHealth;
+        float percent = (leftHealth / maxHealth) * 100;        
         healthText.text = percent.ToString() + "%";
     }
 
