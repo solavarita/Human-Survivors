@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class HealthControl : MonoBehaviour
 {
-    public float currentHealth;
-    public float maxHealth;
-    [SerializeField] private float healthPercent;
+    private float currentHealth;
+    private float maxHealth;
+    private float healthPercent;
     [SerializeField] private Text healthText;
     [SerializeField] private Slider healthSlider;
 

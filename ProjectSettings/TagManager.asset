@@ -45,6 +45,9 @@ TagManager:
   - name: Background
     uniqueID: 74636957
     locked: 0
+  - name: Terrain Obstacle
+    uniqueID: 2096961145
+    locked: 0
   - name: Objects
     uniqueID: 812017203
     locked: 0

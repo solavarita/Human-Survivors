@@ -12,9 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a961c2fb3ae1f8546974b9d05dada71e, type: 3}
   m_Name: Wave_1
   m_EditorClassIdentifier: 
-  enemiesInWave:
-  - enemyKey: Slime
-    count: 10
-  - enemyKey: Rat
-    count: 10
-  delayBeforeNextWave: 5
+  spawnEvents:
+  - startTime: 0
+    endTime: 160
+    enemyKey:
+    - Enemy_Rat
+    - Enemy_Slime
+    spawnInterval: 2
+    spawnCount: 10
+    maxEnemy: 50
+    maxAlive: 50
+  - startTime: 160
+    endTime: 280
+    enemyKey:
+    - Enemy_Rat
+    - Enemy_Slime
+    spawnInterval: 2
+    spawnCount: 10
+    maxEnemy: 50
+    maxAlive: 50

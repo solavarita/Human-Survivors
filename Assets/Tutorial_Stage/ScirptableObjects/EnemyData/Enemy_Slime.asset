@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03aa98bc731f23c4c9be241abfee9f7a, type: 3}
   m_Name: Enemy_Slime
   m_EditorClassIdentifier: 
-  enemyKey: Slime
-  speed: 1.5
+  enemyKey: Enemy_Slime
+  prefab: {fileID: 1155405156997267496, guid: c4c728cfa8c0e51439676c170d84a1fc, type: 3}
+  moveSpeed: 1
   maxHealth: 100
   damage: 0
   icon: {fileID: 435737763, guid: bb382d27d588b594295305589f47d9e4, type: 3}
