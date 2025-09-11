@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private EnemyData data;
-    private EnemyMovement enemyMovement;    
+    [SerializeField] private EnemyMovement enemyMovement;    
 
 
     //Function cơ bản của Unity

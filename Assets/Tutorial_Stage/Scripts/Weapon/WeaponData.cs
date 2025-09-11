@@ -8,17 +8,14 @@ public class WeaponData : ScriptableObject
     [Header("Loại vũ khí")]
     public WeaponType type;
 
-    [Header("Prefab Đạn")]
-    public GameObject projectilePrefab;
-
-    [Header("Prefab Area Weapon")]
-    public GameObject areaWeaponPrefab;
+    [Header("Prefabs vũ khí")]
+    public GameObject weaponPrefabs;
 
     [Header("Thông số cơ bản")]    
-    public float attackInterval;
-    public float damage;
-    public float projectileSpeed;
-    public float range;
+    public float attackInterval; // khoảng thời gian giữa 2 lần tấn công
+    public float damage; // sát thương
+    public float projectileSpeed; // tốc độ đạn
+    public float range; // tầm xa
 
     [Header("Mô tả vũ khí")]
     public string weaponName;

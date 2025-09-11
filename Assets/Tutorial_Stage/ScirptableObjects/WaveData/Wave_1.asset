@@ -14,20 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnEvents:
   - startTime: 0
-    endTime: 160
+    endTime: 10
     enemyKey:
     - Enemy_Rat
-    - Enemy_Slime
     spawnInterval: 2
-    spawnCount: 10
+    spawnCount: 1
     maxEnemy: 50
     maxAlive: 50
-  - startTime: 160
-    endTime: 280
+  - startTime: 10
+    endTime: 14
     enemyKey:
-    - Enemy_Rat
     - Enemy_Slime
     spawnInterval: 2
-    spawnCount: 10
+    spawnCount: 1
+    maxEnemy: 50
+    maxAlive: 50
+  - startTime: 14
+    endTime: 20
+    enemyKey:
+    - Enemy_Slime
+    - Enemy_Rat
+    spawnInterval: 2
+    spawnCount: 1
     maxEnemy: 50
     maxAlive: 50

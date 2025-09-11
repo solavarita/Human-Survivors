@@ -11,10 +11,7 @@ public abstract class Weapon : MonoBehaviour, IWeapon
     }
     protected virtual void Update()
     {
-        if (enabled != true)
-        {
-            return;
-        } 
+        if (!enabled) return;
         else
         {
             attackTimer += Time.deltaTime;

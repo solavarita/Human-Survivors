@@ -15,6 +15,6 @@ MonoBehaviour:
   enemyKey: Enemy_Rat
   prefab: {fileID: 8323295427872936667, guid: 19374cda802062a47b1abe71f59c9baa, type: 3}
   moveSpeed: 1
-  maxHealth: 185
+  maxHealth: 100
   damage: 0
   icon: {fileID: 2027608200, guid: e27d34672fbb6ea4f8ac53f64f17808d, type: 3}

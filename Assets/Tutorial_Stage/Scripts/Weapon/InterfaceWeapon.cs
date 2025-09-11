@@ -1,5 +1,6 @@
-public interface IWeapon
+﻿public interface IWeapon
 {
-    void Activate();
-    void Deactivate();
+    void Activate(); //bật
+    void Deactivate(); //tắt
 }
+    
